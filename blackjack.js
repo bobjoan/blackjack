@@ -15,6 +15,6 @@ function startGame() {
   } else {
     message = "You've got Blackjack!";
   }
-  startBtn.addEventListener("click", startGame());
+
   messageEl.textContent = message;
 }
