@@ -8,6 +8,7 @@ let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("card-el");
 
 startButton.addEventListener("click", startGame);
+newCardButton.addEventListener("click", newCard);
 
 function startGame() {
   sumEl.textContent = "Sum: " + sum;
@@ -24,8 +25,8 @@ function startGame() {
   messageEl.textContent = message;
 }
 
-newCardButton.addEventListener("click", newCard);
-
 function newCard() {
-  alert = "Drawing a new card from the deck!";
+  let card = 3;
+  sum += card;
+  startGame();
 }
