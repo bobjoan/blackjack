@@ -9,12 +9,13 @@ let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("card-el");
 
 let player = {
-  name: "Joan",
+  remark: "You have won",
   win: 200,
 };
 
 let playerEl = document.getElementById("player-el");
-playerEl.textContent = player.name + ": $" + player.win;
+playerEl.textContent = player.remark + ": $" + player.win;
+
 startButton.addEventListener("click", renderGame); // listener for start game
 newCardButton.addEventListener("click", newCard); // listener for new card selector
 

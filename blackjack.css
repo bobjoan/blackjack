@@ -4,14 +4,19 @@ body {
   background-image: url("images/poker.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.poker {
+  width: 80%;
+  margin: 0 auto;
   font-weight: bold;
+  border: 3px solid #fff;
+  border-radius: 10px;
   color: #fff;
   text-align: center;
   margin-top: 50px;
 }
-
 h1 {
-  color: goldenrod;
+  color: #e88c5d;
 }
 
 #message-el {
@@ -22,7 +27,7 @@ h1 {
 button {
   color: #000000;
   width: 150px;
-  background: goldenrod;
+  background: #e88c5d;
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 18px;
